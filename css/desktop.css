@@ -1,0 +1,106 @@
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .header-logo {
+        margin-right: 76px;
+    }
+
+    .header-address-list {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .header-address-contacts {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .hero {
+        padding: 188px 0;
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero-desk-1x.jpg);
+    }
+
+    .hero-title {
+        margin-bottom: 48px;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+    screen and (min-resolution: 192dpi) and (min-width: 1158px),
+    screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+        .hero {
+            background-image: linear-gradient(to right,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero-desk-2x-min.jpg);
+        }
+    }
+
+    .about-us {
+        padding: 120px 0;
+    }
+
+    .about-us-wrapper {
+        width: 264px;
+        height: 112px;
+        border: 1px solid #8E8F99;
+        border-radius: 4px;
+        background-color: #F4F4FD;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-us-list-title {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .about-us-item {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .about-us-text {
+        font-weight: 400;
+    }
+
+    .team {
+        padding: 120px 0;
+    }
+
+    .portfolio {
+        padding: 120px 0;
+    }
+
+    .portfolio-list {
+        gap: 48px 24px;
+    }
+
+    .portfolio-list-item {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .footer {
+        padding: 100px 0;
+    }
+
+    .footer-container {
+        gap: unset;
+    }
+
+    .logo-text-box {
+        margin-right: 120px;
+    }
+
+    .subscribe-cont {
+        margin-left: auto;
+    }
+}
